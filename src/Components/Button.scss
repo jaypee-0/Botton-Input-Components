@@ -1,7 +1,9 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@300&family=Ubuntu+Mono&display=swap');
 
-
+pre {
+    overflow: hidden!important;
+}
 .btnn {
     padding: 8px 20px;
     border-radius: 6px;
