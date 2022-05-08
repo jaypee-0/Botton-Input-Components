@@ -6,7 +6,7 @@ const Buttons = () => {
     <div className='buttons mt-5'>
         <h2>Buttons</h2>
         <div className="d-flex mb-5">
-            <div className="col-2"><Btn /></div>    
+            <div className="col-2"><pre className="htmlcode">&lt;Button variant="outline"/&gt;</pre><Btn /></div>    
             <div className="col-2"><Btn /></div>      
         </div>
         <div className="d-flex mb-5">
