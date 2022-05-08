@@ -15,12 +15,12 @@ const Navbar = () => {
         <span onClick={handleClick}><FA className='pt-4' icon={click ? 'times': 'bars'} /></span>  
         </div>
         <ul className='pl-0'>
-            <Link to='/buttons'><li className='nav-items'>Colors</li></Link>
-            <Link to='/buttons'><li className='nav-items'>Typography</li></Link>
-            <Link to='/buttons'><li className='nav-items'>Spaces</li></Link>
-            <Link to='/buttons'><li className='nav-items'>Buttons</li></Link>
+            <Link to='/'><li className='nav-items'>Colors</li></Link>
+            <Link to='/'><li className='nav-items'>Typography</li></Link>
+            <Link to='/'><li className='nav-items'>Spaces</li></Link>
+            <Link to='/'><li className='nav-items'>Buttons</li></Link>
             <Link to='/inputs'><li className='nav-items'>Inputs</li></Link>
-            <Link to='/buttons'><li className='nav-items'>Grids</li></Link>
+            <Link to='/'><li className='nav-items'>Grids</li></Link>
         </ul>
     </nav>
   )
