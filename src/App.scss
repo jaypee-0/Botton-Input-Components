@@ -11,6 +11,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 100;
     h2 {
         padding: 2rem 2.25rem 0rem;
         font-size: 18px;
@@ -70,10 +71,19 @@ footer {
         font-weight: 600;
     }
 }
-@media screen and (max-width: 768px) {
-    // nav {
-    //     .expand {
+.fa-times, .fa-bars {
+    display: none;
+}
 
-    //     }
-    // }
+@media screen and (max-width: 768px) {
+    .hide {
+        width: calc(var($nav-width) - 200px); 
+        left: 90%;       
+    }
+    .buttons {        
+        margin-left: calc($nav-width - 220px);
+    }
+    .fa-times, .fa-bars {
+        display: block;
+    }
 }

@@ -6,8 +6,10 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
+  //const handleNav = () => setshowNav(!setshowNav);
+
   return (
-    <nav className='pt-1 expand'>     
+    <nav className='pt-1 hide'>     
         <div className='d-flex'>
         <h2 className='fw-bold pb-5'><span className='text-danger'>Dev</span>challenges.io</h2> 
         <span onClick={handleClick}><FA className='pt-4' icon={click ? 'times': 'bars'} /></span>  

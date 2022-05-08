@@ -10,6 +10,7 @@ function App() {
     <Router>
       <Navbar />
       <div>
+      <h2 className='d-block mt-2 text-center d-md-none fw-bold'><span className='text-danger'>Dev</span>challenges.io</h2>
         <Routes>
           <Route exact path='/' element={<Button />}></Route>
           <Route exact path='/inputs' element={<Input />}></Route>
