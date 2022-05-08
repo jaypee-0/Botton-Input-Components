@@ -1,0 +1,72 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@300&family=Ubuntu+Mono&display=swap');
+
+.inputs {
+    .inputed {
+        padding: 12px 20px;
+        border-radius: 8px;
+        outline: none!important;
+        border: 1px solid #828282;
+        position: relative;
+        background-color: white;
+        cursor: text;
+        width: 150px;
+        &:hover {
+            border: 1px solid #333333;
+        }     
+        &:focus {
+            border: 1px solid #2962FF;
+        }  
+    }
+    .default {
+        &:hover {
+            border: 1px solid #333333;
+        }     
+        &:focus {
+            border: 1px solid #2962FF;
+        }   
+    }
+    .error {
+        border: 1px solid #D32F2F;
+        &:hover {
+            border: 1px solid #333333;
+        }
+        &:focus {
+            border: 1px solid #D32F2F;
+        }
+    }
+    .disabled {
+        cursor: not-allowed!important;
+        background-color: #E0E0E0;
+    }
+    .full {
+        width: 75vw;
+    }
+}
+
+// startIcon
+.start-phone::before {
+    content: "\f51b";
+    margin-right: 0.2rem;
+    align-self: center;
+    font: normal normal normal 1em/1 "Phosphor";
+}
+// endIcon
+.end-shopping-cart::after {
+    margin-left: 0.2rem;
+    align-self: center;
+    content: "\f579";
+    font: normal normal normal 1em/1 "Phosphor";
+}
+textarea{
+    border: 1px solid #828282;
+    background: white;
+    border-radius: 8px;
+    padding: 12px 20px;
+    &:hover {
+        border: 1px solid #333333;
+    }     
+    &:focus {
+        border: 1px solid #2962FF;
+    }
+}

@@ -1,4 +1,4 @@
-<h1 align="center">Button Component</h1>
+<h1 align="center">Components</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://recipe-page-jaypee.netlify.app/">
+    <a href="https://buttons-inputs-jaypee.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -14,7 +14,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/uav8gXCE64yfbLYrNUkR">
+    <a href="https://devchallenges.io/solutions/lBL0K3z5NzTbZ3s494GM">
       Challenge
     </a>
   </h3>

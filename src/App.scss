@@ -78,9 +78,13 @@ footer {
 @media screen and (max-width: 768px) {
     .hide {
         width: calc(var($nav-width) - 200px); 
-        left: 90%;       
+        //left: 90%; 
+
     }
-    .buttons {        
+    nav {
+        display: none;
+    }
+    .buttons,.inputs {        
         margin-left: calc($nav-width - 220px);
     }
     .fa-times, .fa-bars {
