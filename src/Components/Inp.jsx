@@ -20,8 +20,8 @@ const Inp = () => {
         
 
         <div className="d-flex flex-column flex-md-row mb-5">
-            <div className="col-12 col-md-4 col-lg-3 "><pre className="htmlcode">&lt;Input size="sm"/ &gt;</pre><div className='d-flex flex-column'><label htmlFor="">Label</label><Input startIcon="start-phone" size="sm"/></div></div>    
-            <div className="col-12 col-md-4 "><pre className="htmlcode">&lt;Input size="md"/ &gt;</pre><div className='d-flex flex-column'><label htmlFor="">Label</label><Input endIcon='end-lock' /></div></div>  
+            <div className="col-12 col-md-4 col-lg-3 "><pre className="htmlcode">&lt;Input startIcon="start-phone"/ &gt;</pre><div className='d-flex flex-column'><label htmlFor="">Label</label><Input startIcon="start-phone" /></div></div>    
+            <div className="col-12 col-md-4 "><pre className="htmlcode">&lt;Input endIcon="end-lock"/ &gt;</pre><div className='d-flex flex-column'><label htmlFor="">Label</label><Input endIcon="end-lock" /></div></div>  
         </div>
 
 

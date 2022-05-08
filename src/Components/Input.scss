@@ -50,13 +50,15 @@
     margin-right: 0.2rem;
     align-self: center;
     font: normal normal normal 1em/1 "Phosphor";
+    background-color: black;
 }
 // endIcon
-.end-shopping-cart::after {
+.end-lock::after {
+    content: "\f51b";
     margin-left: 0.2rem;
     align-self: center;
-    content: "\f579";
     font: normal normal normal 1em/1 "Phosphor";
+    color: black;
 }
 textarea{
     border: 1px solid #828282;

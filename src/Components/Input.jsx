@@ -5,12 +5,12 @@ const ERROR = ['null', 'error']
 const sizes = ['sm', 'md', 'lg']
 const disable = ['disabled', 'enabled']
 const StartIcon = ['null', 'start-phone']
-const EndIcon = ['null', 'ph-lock']
+const EndIcon = ['null', '.end-lock']
 const FULLWIDTH = ['null', 'full']
-const Multiline = ['null', 'end-padlock']
+const Multiline = ['null', 'null']
 
 
-const Input = ({error, size, disabled, startIcon, endIcon, fullwidth, multiline}) => {
+const Input = ({error, size, disabled, startIcon, endIcon, fullwidth, multiline, helper}) => {
         const Error = ERROR.includes(error) ? error : ERROR[0];
         const Size = sizes.includes(size) ? size : sizes[1];    
         const Disabled = disable.includes(disabled) ? disabled : disable[1];  
