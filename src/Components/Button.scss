@@ -109,11 +109,13 @@
 .endIcon-local-grocery-store {
     left: 15px;
     position: absolute;
-
+    background-image: url('../Assets/shoppingcart.png');
+    width: 30px;
+    height: 30px;
 }
 // startIcon
 .startIcon-local-grocery-store {
     right: 15px;
     position: absolute;   
-     
+
 }

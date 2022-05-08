@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/jaypee-0/DevChallenges/tree/RECIPE-PAGE">
+    <a href="https://github.com/jaypee-0/Botton-Input-Components">
       Solution
     </a>
     <span> | </span>
@@ -32,7 +32,6 @@
 
 ## Overview
 
-![image](https://user-images.githubusercontent.com/32205725/166587878-9dc08b99-adb4-4de1-b03a-3ddae98bf9ac.png)
 
 
 ### Built With
