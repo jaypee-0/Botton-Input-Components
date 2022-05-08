@@ -1,0 +1,76 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@300&family=Ubuntu+Mono&display=swap');
+
+$nav-width: 250px;
+$gray: #9E9E9E;
+nav {
+    color: black;
+    background-color: hsl(220, 60%, 99%);
+    width: $nav-width;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    h2 {
+        padding: 2rem 2.25rem 0rem;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+    }
+    a {
+        text-decoration: none;
+    }
+    .nav-items {
+        padding: 2rem 2.25rem 0rem;
+        color: $gray;
+        list-style-type: none;
+        font-weight: 600;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+        &:hover {
+            color: black;
+            font-weight: 900;
+            cursor: pointer;
+        }
+    }
+}
+
+.buttons {
+    font-size: 14px;
+    margin-left: calc($nav-width + 50px);
+    color: $gray;
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        margin-bottom: 3rem;
+        //font-family: 'Ubuntu Mono', monospace;    
+    }
+}
+footer {
+    p {
+        color: #A9A9A9;
+    }
+    a {
+        text-decoration: underline;
+        color: inherit;
+        font-weight: 600;
+        &:hover {
+            color: inherit;
+            font-weight: 700;
+        }
+    }
+}
+.inputs {
+    margin-left: calc($nav-width + 50px);
+    color: $gray;
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 768px) {
+    // nav {
+    //     .expand {
+
+    //     }
+    // }
+}

@@ -1,0 +1,119 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Poppins:wght@300&family=Ubuntu+Mono&display=swap');
+
+
+.btnn {
+    padding: 8px 20px;
+    border-radius: 6px;
+    outline: none!important;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+// Varaints
+.default {
+    background-color: #E0E0E0;
+    color: #3F3F3F;
+    &:hover, &:focus {
+        background-color: #AEAEAE;
+    }
+}
+.outline {
+    background-color: white;
+    color: #3D5AFE;
+    border: 1px solid #2962FF;
+    &:hover, &:focus, &:focus-visible {
+        background-color: #2962ff36;
+        
+    }
+}
+.text {
+    background-color: unset;
+    color: #3D5AFE;
+    &:hover, &:focus {
+        background-color: #2962ff36;        
+        border: none;
+    }
+}
+// Sizes
+.lg {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.md {
+    padding: 8px 20px;
+    font-size: 16px;
+}
+.sm {
+    padding: 8px 20px;
+    font-size: 14px;
+}
+// Color
+.default-color {
+    background-color: #E0E0E0;
+    color: #3F3F3F;
+    &:hover, &:focus {
+        background-color: #AEAEAE;
+    }
+}
+.primary {
+    background-color: #2962FF;
+    color: white;
+    &:hover, &:focus {
+        background-color: #0039CB;
+    }
+}
+.secondary {
+    background-color: #455A64;
+    color: white;
+    &:hover, &:focus {
+        background-color: #1C313A;
+    }
+}
+.danger {
+    background-color: #D32F2F;
+    color: white;
+    &:hover, &:focus {
+        background-color: #9A0007;
+    }
+}
+// Disable
+.disabled {
+    cursor: not-allowed;
+    background-color: #E0E0E0;
+    color: #9E9E9E;
+    &:hover {
+        cursor: not-allowed;
+        background-color: #E0E0E0;
+    }
+}
+.enabled {
+    cursor: pointer;
+}
+// Disableshadow 
+.disableshadow {
+    background-color: #3D5AFE;
+    color: white;
+    &:hover {
+        background-color: #3D5AFE;
+    }
+}
+.disableshadowNull {
+    box-shadow: none;
+}
+// Default Icon 
+.default-icon {
+    position: relative;
+}
+// endIcon
+.endIcon-local-grocery-store {
+    left: 15px;
+    position: absolute;
+    
+}
+// startIcon
+.startIcon-local-grocery-store {
+    right: 15px;
+    position: absolute;
+    
+}
